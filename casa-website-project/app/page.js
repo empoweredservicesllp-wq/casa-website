@@ -10,7 +10,7 @@ export default function Home() {
      <div
   style={{
     position: "absolute",
-    top: "82px",
+    top: "72px",
     left: "25px",
     zIndex: 10,
   }}
@@ -19,7 +19,7 @@ export default function Home() {
     src="/logo.png"
     alt="CASCA Logo"
     style={{
-      width: "170px",
+      width: "210px",
       objectFit: "contain",
       borderRadius: "18px",
   boxShadow: "0 8px 30px rgba(0,0,0,0.35)",
