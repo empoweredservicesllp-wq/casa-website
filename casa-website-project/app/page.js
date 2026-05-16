@@ -10,6 +10,14 @@ export default function Home() {
         textAlign: "center",
       }}
     >
+     <img
+  src="/logo.png"
+  alt="CASCA Logo"
+  style={{
+    width: "300px",
+    marginBottom: "30px",
+  }}
+/> 
       <h1
         style={{
           fontSize: "64px",
