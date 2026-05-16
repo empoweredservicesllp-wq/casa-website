@@ -277,7 +277,7 @@ backgroundPosition: "center",
     </p>
   </div>
 ))}
-      >
+      
      
   </div>
 </section>
