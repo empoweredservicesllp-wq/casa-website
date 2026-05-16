@@ -81,7 +81,7 @@ backgroundPosition: "center",
         }}
       ></section>
 
-        <section
+        
  <section
   id="about"
   style={{
