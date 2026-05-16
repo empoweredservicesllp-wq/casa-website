@@ -1,20 +1,69 @@
 export default function Home() {
   return (
-    <main className="bg-black text-white min-h-screen flex items-center justify-center">
-      <div className="text-center px-6">
-        <h1 className="text-7xl font-black mb-6">CASA</h1>
-        <p className="text-2xl text-gray-300 mb-8">
-          Empowering Businesses Through Smarter Customer Experiences
-        </p>
-        <div className="flex gap-4 justify-center">
-          <button className="px-8 py-4 rounded-2xl bg-purple-600">
-            Explore Services
-          </button>
-          <button className="px-8 py-4 rounded-2xl bg-orange-500">
-            Contact Us
-          </button>
-        </div>
+    <main
+      style={{
+        minHeight: "100vh",
+        background: "#0a0a0a",
+        color: "white",
+        fontFamily: "Arial",
+        padding: "60px 20px",
+        textAlign: "center",
+      }}
+    >
+      <h1
+        style={{
+          fontSize: "64px",
+          marginBottom: "20px",
+          color: "#ffffff",
+        }}
+      >
+        EMPOWERED SERVICES LLP
+      </h1>
+
+      <p
+        style={{
+          fontSize: "22px",
+          maxWidth: "900px",
+          margin: "0 auto",
+          lineHeight: "1.6",
+          color: "#d1d5db",
+        }}
+      >
+        Empowering businesses with smarter customer experiences,
+        digital solutions, virtual assistance, dispatch support,
+        customer service, and BPO excellence.
+      </p>
+
+      <div style={{ marginTop: "40px" }}>
+        <button
+          style={{
+            padding: "15px 30px",
+            marginRight: "20px",
+            background: "#7c3aed",
+            border: "none",
+            color: "white",
+            borderRadius: "10px",
+            cursor: "pointer",
+            fontSize: "16px",
+          }}
+        >
+          Explore Services
+        </button>
+
+        <button
+          style={{
+            padding: "15px 30px",
+            background: "transparent",
+            border: "2px solid orange",
+            color: "white",
+            borderRadius: "10px",
+            cursor: "pointer",
+            fontSize: "16px",
+          }}
+        >
+          Contact Us
+        </button>
       </div>
     </main>
-  )
+  );
 }
