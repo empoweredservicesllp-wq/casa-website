@@ -82,30 +82,119 @@ backgroundPosition: "center",
       ></section>
 
         <section
+ <section
   id="about"
   style={{
-    padding: "120px 80px",
-    background: "#050014",
+    padding: "140px 80px",
+    background: "linear-gradient(to bottom, #050014, #0d0221)",
     color: "white",
     fontFamily: "Arial",
   }}
 >
-  <h2 style={{ fontSize: "48px", marginBottom: "30px" }}>
-    About Us
-  </h2>
-
-  <p
+  <div
     style={{
-      fontSize: "20px",
-      lineHeight: "1.8",
-      color: "#d1c4ff",
-      maxWidth: "900px",
+      maxWidth: "1300px",
+      margin: "0 auto",
     }}
   >
-    CASCA delivers premium outsourcing solutions including customer
-    support, virtual assistance, dispatch support, medical billing,
-    and digital operations for global businesses.
-  </p>
+    <p
+      style={{
+        color: "#9d7dff",
+        fontSize: "18px",
+        letterSpacing: "3px",
+        marginBottom: "20px",
+      }}
+    >
+      WHO WE ARE
+    </p>
+
+    <h2
+      style={{
+        fontSize: "64px",
+        lineHeight: "1.2",
+        marginBottom: "40px",
+        maxWidth: "900px",
+      }}
+    >
+      Empowering Businesses Through Premium Outsourcing Solutions
+    </h2>
+
+    <p
+      style={{
+        fontSize: "22px",
+        lineHeight: "1.9",
+        color: "#d4cfff",
+        maxWidth: "1000px",
+        marginBottom: "80px",
+      }}
+    >
+      Empowered Services LLP helps businesses improve customer
+      experiences, optimize operations, and scale efficiently through
+      professional outsourcing solutions. We specialize in customer
+      support, dispatch services, virtual assistance, medical billing,
+      and operational support tailored for global businesses.
+    </p>
+
+    <div
+      style={{
+        display: "grid",
+        gridTemplateColumns: "repeat(auto-fit,minmax(300px,1fr))",
+        gap: "30px",
+      }}
+    >
+      <div
+        style={{
+          background: "rgba(255,255,255,0.05)",
+          padding: "40px",
+          borderRadius: "28px",
+          border: "1px solid rgba(255,255,255,0.08)",
+          backdropFilter: "blur(10px)",
+        }}
+      >
+        <h3 style={{ fontSize: "30px", marginBottom: "20px" }}>
+          The Challenge
+        </h3>
+
+        <p
+          style={{
+            color: "#d4cfff",
+            lineHeight: "1.8",
+            fontSize: "18px",
+          }}
+        >
+          Modern businesses struggle to balance customer satisfaction,
+          operational efficiency, and rising support costs while
+          maintaining consistent service quality.
+        </p>
+      </div>
+
+      <div
+        style={{
+          background: "rgba(255,255,255,0.05)",
+          padding: "40px",
+          borderRadius: "28px",
+          border: "1px solid rgba(255,255,255,0.08)",
+          backdropFilter: "blur(10px)",
+        }}
+      >
+        <h3 style={{ fontSize: "30px", marginBottom: "20px" }}>
+          Our Solution
+        </h3>
+
+        <p
+          style={{
+            color: "#d4cfff",
+            lineHeight: "1.8",
+            fontSize: "18px",
+          }}
+        >
+          We provide scalable and professional support solutions that
+          improve customer satisfaction, streamline operations, and
+          reduce operational costs for businesses worldwide.
+        </p>
+      </div>
+    </div>
+  </div>
 </section>
 
 <section
