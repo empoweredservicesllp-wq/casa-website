@@ -50,7 +50,7 @@ export default function Home() {
           width: "100%",
           height: "100vh",
           backgroundImage: "url('/hero-image.png')",
-         backgroundSize: "contain",
+         backgroundSize: "cover",
 backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
         }}
