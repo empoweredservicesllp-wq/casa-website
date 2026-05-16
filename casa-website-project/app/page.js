@@ -299,9 +299,192 @@ backgroundPosition: "center",
      
   </div>
 </section>
+<section
+  id="about"
+  style={{
+    padding: "140px 80px",
+    background:
+      "linear-gradient(180deg, #050014 0%, #0a001f 100%)",
+    color: "white",
+    fontFamily: "Arial",
+    position: "relative",
+    overflow: "hidden",
+  }}
+>
+  <div
+    style={{
+      position: "absolute",
+      top: "-120px",
+      right: "-120px",
+      width: "320px",
+      height: "320px",
+      borderRadius: "50%",
+      background: "rgba(140,0,255,0.18)",
+      filter: "blur(120px)",
+    }}
+  />
+
+  <div
+    style={{
+      display: "grid",
+      gridTemplateColumns: "1fr 1fr",
+      gap: "80px",
+      alignItems: "center",
+    }}
+  >
+    <div>
+      <p
+        style={{
+          color: "#9f7aea",
+          letterSpacing: "3px",
+          marginBottom: "20px",
+          fontSize: "14px",
+          fontWeight: "bold",
+        }}
+      >
+        ABOUT EMPOWERED SERVICES LLP
+      </p>
+
+      <h2
+        style={{
+          fontSize: "56px",
+          lineHeight: "1.2",
+          marginBottom: "30px",
+        }}
+      >
+        Delivering Premium BPO Solutions
+        For Global Businesses
+      </h2>
+
+      <p
+        style={{
+          color: "#d1c4ff",
+          lineHeight: "1.9",
+          fontSize: "18px",
+          marginBottom: "25px",
+        }}
+      >
+        Empowered Services LLP is a modern Business
+        Process Outsourcing company based in Asansol,
+        India, serving clients across the US and UK.
+      </p>
+
+      <p
+        style={{
+          color: "#d1c4ff",
+          lineHeight: "1.9",
+          fontSize: "18px",
+          marginBottom: "25px",
+        }}
+      >
+        We specialize in customer support, virtual
+        assistance, dispatch coordination, and medical
+        billing solutions with a strong focus on
+        professionalism, communication, and operational
+        excellence.
+      </p>
+
+      <p
+        style={{
+          color: "#d1c4ff",
+          lineHeight: "1.9",
+          fontSize: "18px",
+        }}
+      >
+        Our mission is to empower businesses with
+        reliable remote teams that improve efficiency,
+        customer satisfaction, and long-term growth.
+      </p>
+    </div>
+
+    <div
+      style={{
+        background:
+          "linear-gradient(145deg, rgba(90,0,150,0.35), rgba(20,0,40,0.95))",
+        borderRadius: "32px",
+        padding: "50px",
+        border: "1px solid rgba(255,255,255,0.12)",
+        boxShadow: "0 0 40px rgba(140,0,255,0.15)",
+      }}
+    >
+      <div
+        style={{
+          display: "grid",
+          gridTemplateColumns: "1fr 1fr",
+          gap: "30px",
+        }}
+      >
+        <div>
+          <h3
+            style={{
+              fontSize: "42px",
+              color: "#bb86fc",
+              marginBottom: "10px",
+            }}
+          >
+            16+
+          </h3>
+
+          <p style={{ color: "#d1c4ff" }}>
+            Years Industry Experience
+          </p>
+        </div>
+
+        <div>
+          <h3
+            style={{
+              fontSize: "42px",
+              color: "#bb86fc",
+              marginBottom: "10px",
+            }}
+          >
+            US/UK
+          </h3>
+
+          <p style={{ color: "#d1c4ff" }}>
+            International Client Support
+          </p>
+        </div>
+
+        <div>
+          <h3
+            style={{
+              fontSize: "42px",
+              color: "#bb86fc",
+              marginBottom: "10px",
+            }}
+          >
+            24/7
+          </h3>
+
+          <p style={{ color: "#d1c4ff" }}>
+            Reliable Service Availability
+          </p>
+        </div>
+
+        <div>
+          <h3
+            style={{
+              fontSize: "42px",
+              color: "#bb86fc",
+              marginBottom: "10px",
+            }}
+          >
+            100%
+          </h3>
+
+          <p style={{ color: "#d1c4ff" }}>
+            Client-Focused Approach
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 
 <section
-  id="contact"
+id="contact"
   style={{
     padding: "120px 80px",
     background: "#050014",
