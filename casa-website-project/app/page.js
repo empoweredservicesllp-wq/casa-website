@@ -278,9 +278,7 @@ backgroundPosition: "center",
   </div>
 ))}
       >
-        <h3 style={{ fontSize: "24px" }}>{service}</h3>
-      </div>
-    ))}
+     
   </div>
 </section>
 
