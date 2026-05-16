@@ -7,6 +7,25 @@ export default function Home() {
         margin: 0,
       }}
     >
+     <div
+  style={{
+    position: "absolute",
+    top: "40px",
+    left: "60px",
+    zIndex: 10,
+  }}
+>
+  <img
+    src="/logo.png"
+    alt="CASCA Logo"
+    style={{
+      width: "220px",
+      objectFit: "contain",
+    }}
+  />
+</div>
+      
+      
       <nav
         style={{
           position: "absolute",
