@@ -74,6 +74,96 @@ backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
         }}
       ></section>
+
+        <section
+  id="about"
+  style={{
+    padding: "120px 80px",
+    background: "#050014",
+    color: "white",
+    fontFamily: "Arial",
+  }}
+>
+  <h2 style={{ fontSize: "48px", marginBottom: "30px" }}>
+    About Us
+  </h2>
+
+  <p
+    style={{
+      fontSize: "20px",
+      lineHeight: "1.8",
+      color: "#d1c4ff",
+      maxWidth: "900px",
+    }}
+  >
+    CASCA delivers premium outsourcing solutions including customer
+    support, virtual assistance, dispatch support, medical billing,
+    and digital operations for global businesses.
+  </p>
+</section>
+
+<section
+  id="services"
+  style={{
+    padding: "120px 80px",
+    background: "#0a001f",
+    color: "white",
+    fontFamily: "Arial",
+  }}
+>
+  <h2 style={{ fontSize: "48px", marginBottom: "40px" }}>
+    Services
+  </h2>
+
+  <div
+    style={{
+      display: "grid",
+      gridTemplateColumns: "repeat(auto-fit,minmax(250px,1fr))",
+      gap: "30px",
+    }}
+  >
+    {[
+      "Customer Support",
+      "Virtual Assistance",
+      "Dispatch Support",
+      "Medical Billing",
+    ].map((service) => (
+      <div
+        key={service}
+        style={{
+          padding: "35px",
+          borderRadius: "24px",
+          background: "#14002d",
+          border: "1px solid rgba(255,255,255,0.1)",
+        }}
+      >
+        <h3 style={{ fontSize: "24px" }}>{service}</h3>
+      </div>
+    ))}
+  </div>
+</section>
+
+<section
+  id="contact"
+  style={{
+    padding: "120px 80px",
+    background: "#050014",
+    color: "white",
+    fontFamily: "Arial",
+  }}
+>
+  <h2 style={{ fontSize: "48px", marginBottom: "30px" }}>
+    Contact Us
+  </h2>
+
+  <p style={{ fontSize: "20px", color: "#d1c4ff" }}>
+    Email: empoweredservicesllp@gmail.com
+  </p>
+
+  <p style={{ fontSize: "20px", color: "#d1c4ff" }}>
+    Phone: +91 9679897979
+  </p>
+</section>
     </main>
   );
 }
