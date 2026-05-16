@@ -422,7 +422,7 @@ backgroundPosition: "center",
               marginBottom: "10px",
             }}
           >
-            16+
+            20+
           </h3>
 
           <p style={{ color: "#d1c4ff" }}>
@@ -438,11 +438,11 @@ backgroundPosition: "center",
               marginBottom: "10px",
             }}
           >
-            US/UK
+            GLOBAL
           </h3>
 
           <p style={{ color: "#d1c4ff" }}>
-            International Client Support
+            Global Business Solutions
           </p>
         </div>
 
