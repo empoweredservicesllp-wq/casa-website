@@ -35,11 +35,14 @@ export default function Home() {
           justifyContent: "center",
           alignItems: "center",
           gap: "40px",
-          padding: "30px",
+          padding: "22px 40px",
           zIndex: 10,
           color: "white",
           fontFamily: "Arial",
           fontSize: "16px",
+          backdropFilter: "blur(14px)",
+background: "rgba(5,0,20,0.45)",
+borderBottom: "1px solid rgba(255,255,255,0.08)",
         }}
       >
        <a href="#home" style={{ color: "white", textDecoration: "none" }}>Home</a>
