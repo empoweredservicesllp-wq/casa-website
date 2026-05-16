@@ -3,54 +3,38 @@ export default function Home() {
     <main
       style={{
         background: "#070014",
-        color: "white",
         minHeight: "100vh",
-        fontFamily: "Arial",
+        margin: 0,
       }}
     >
-      {/* NAVBAR */}
-
       <nav
         style={{
-          display: "flex",
-          justifyContent: "space-between",
-          alignItems: "center",
-          padding: "20px 60px",
-          borderBottom: "1px solid rgba(255,255,255,0.1)",
-          position: "sticky",
+          position: "absolute",
           top: 0,
-          background: "#070014",
-          zIndex: 1000,
+          width: "100%",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          gap: "40px",
+          padding: "30px",
+          zIndex: 10,
+          color: "white",
+          fontFamily: "Arial",
+          fontSize: "16px",
         }}
       >
-        <img
-          src="/logo.png"
-          alt="CASCA Logo"
-          style={{
-            width: "160px",
-            objectFit: "contain",
-          }}
-        />
-
-        <div
-          style={{
-            display: "flex",
-            gap: "35px",
-            fontSize: "16px",
-          }}
-        >
-          <span>Home</span>
-          <span>About Us</span>
-          <span>Services</span>
-          <span>Industries</span>
-          <span>Careers</span>
-          <span>Contact</span>
-        </div>
+        <span>Home</span>
+        <span>About Us</span>
+        <span>Services</span>
+        <span>Industries</span>
+        <span>Careers</span>
+        <span>Contact</span>
 
         <button
           style={{
-            background: "transparent",
+            marginLeft: "40px",
             border: "1px solid orange",
+            background: "transparent",
             color: "white",
             padding: "12px 24px",
             borderRadius: "30px",
@@ -61,111 +45,16 @@ export default function Home() {
         </button>
       </nav>
 
-      {/* HERO SECTION */}
-
       <section
         style={{
-          display: "flex",
-          justifyContent: "space-between",
-          alignItems: "center",
-          padding: "100px 80px",
-          gap: "60px",
-          flexWrap: "wrap",
+          width: "100%",
+          height: "100vh",
+          backgroundImage: "url('/hero-image.png')",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
         }}
-      >
-        {/* LEFT SIDE */}
-
-        <div style={{ flex: 1 }}>
-          <div
-            style={{
-              display: "inline-block",
-              background: "#2b0a52",
-              padding: "10px 20px",
-              borderRadius: "30px",
-              marginBottom: "25px",
-              color: "#caa6ff",
-              fontSize: "14px",
-            }}
-          >
-            GLOBAL OUTSOURCING. EXCEPTIONAL RESULTS.
-          </div>
-
-          <h1
-            style={{
-              fontSize: "72px",
-              lineHeight: "1.1",
-              marginBottom: "30px",
-              fontWeight: "bold",
-            }}
-          >
-            Empowering Businesses <br />
-            to{" "}
-            <span style={{ color: "#ff7b00" }}>
-              Grow, Scale & Succeed
-            </span>
-          </h1>
-
-          <p
-            style={{
-              fontSize: "22px",
-              lineHeight: "1.8",
-              color: "#cfcfcf",
-              maxWidth: "700px",
-              marginBottom: "40px",
-            }}
-          >
-            Empowered Services LLP delivers customer support,
-            virtual assistance, dispatch support, medical billing,
-            and BPO solutions for global businesses.
-          </p>
-
-          <div style={{ display: "flex", gap: "20px" }}>
-            <button
-              style={{
-                background: "linear-gradient(90deg,#7b2ff7,#9b4dff)",
-                color: "white",
-                padding: "18px 35px",
-                borderRadius: "14px",
-                border: "none",
-                fontSize: "18px",
-                cursor: "pointer",
-              }}
-            >
-              Explore Services
-            </button>
-
-            <button
-              style={{
-                background: "transparent",
-                color: "white",
-                padding: "18px 35px",
-                borderRadius: "14px",
-                border: "1px solid orange",
-                fontSize: "18px",
-                cursor: "pointer",
-              }}
-            >
-              Contact Us
-            </button>
-          </div>
-        </div>
-
-        {/* RIGHT SIDE */}
-<div
-  style={{
-    flex: 1,
-    minHeight: "700px",
-    backgroundImage: "url('/hero-image.png')",
-    backgroundSize: "cover",
-    backgroundPosition: "center",
-    backgroundRepeat: "no-repeat",
-    borderRadius: "30px",
-  }}
->
-       
-        
-        </div>
-      </section>
+      ></section>
     </main>
   );
 }
