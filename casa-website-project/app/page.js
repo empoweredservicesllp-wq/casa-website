@@ -239,27 +239,45 @@ backgroundPosition: "center",
     icon: "🏥",
   },
 ].map((service) => (
+
   <div
     key={service.title}
     style={{
       background:
-        "linear-gradient(145deg, rgba(90,0,150,0.35), rgba(20,0,40,0.95))",
+        "linear-gradient(145deg, rgba(120,0,255,0.18), rgba(20,0,40,0.95))",
+      border: "1px solid rgba(255,255,255,0.12)",
       borderRadius: "28px",
       padding: "40px",
-      border: "1px solid rgba(255,255,255,0.12)",
-      transition: "0.3s ease",
-      boxShadow: "0 0 30px rgba(140,0,255,0.12)",
-      backdropFilter: "blur(12px)",
+      minHeight: "260px",
+      transition: "0.4s ease",
+      backdropFilter: "blur(10px)",
+      boxShadow: "0 0 30px rgba(162, 0, 255, 0.18)",
+      position: "relative",
+      overflow: "hidden",
     }}
   >
-    <div style={{ fontSize: "48px", marginBottom: "20px" }}>
+    <div
+      style={{
+        width: "70px",
+        height: "70px",
+        borderRadius: "20px",
+        background:
+          "linear-gradient(135deg, #a855f7, #6d28d9)",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        fontSize: "30px",
+        marginBottom: "25px",
+        boxShadow: "0 0 25px rgba(168,85,247,0.6)",
+      }}
+    >
       {service.icon}
     </div>
 
     <h3
       style={{
-        fontSize: "28px",
-        marginBottom: "15px",
+        fontSize: "30px",
+        marginBottom: "18px",
         color: "white",
       }}
     >
@@ -268,9 +286,9 @@ backgroundPosition: "center",
 
     <p
       style={{
-        color: "#d1c4ff",
-        lineHeight: "1.7",
+        color: "#d8c7ff",
         fontSize: "17px",
+        lineHeight: "1.8",
       }}
     >
       {service.desc}
