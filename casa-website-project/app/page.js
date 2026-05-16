@@ -42,12 +42,17 @@ export default function Home() {
           fontSize: "16px",
         }}
       >
-        <span>Home</span>
-        <span>About Us</span>
-        <span>Services</span>
-        <span>Industries</span>
-        <span>Careers</span>
-        <span>Contact</span>
+       <a href="#home" style={{ color: "white", textDecoration: "none" }}>Home</a>
+
+<a href="#about" style={{ color: "white", textDecoration: "none" }}>About Us</a>
+
+<a href="#services" style={{ color: "white", textDecoration: "none" }}>Services</a>
+
+<a href="#services" style={{ color: "white", textDecoration: "none" }}>Industries</a>
+
+<a href="#services" style={{ color: "white", textDecoration: "none" }}>Careers</a>
+
+<a href="#contact" style={{ color: "white", textDecoration: "none" }}>Contact</a>
 
         <button
           style={{
@@ -64,8 +69,9 @@ export default function Home() {
         </button>
       </nav>
 
-      <section
-        style={{
+     <section
+  id="home"
+  style={{
           width: "100%",
           height: "100vh",
           backgroundImage: "url('/hero-image.png')",
