@@ -217,20 +217,66 @@ backgroundPosition: "center",
       gap: "30px",
     }}
   >
-    {[
-      "Customer Support",
-      "Virtual Assistance",
-      "Dispatch Support",
-      "Medical Billing",
-    ].map((service) => (
-      <div
-        key={service}
-        style={{
-          padding: "35px",
-          borderRadius: "24px",
-          background: "#14002d",
-          border: "1px solid rgba(255,255,255,0.1)",
-        }}
+   {[
+  {
+    title: "Customer Support",
+    desc: "24/7 customer interaction and client relationship management.",
+    icon: "🎧",
+  },
+  {
+    title: "Virtual Assistance",
+    desc: "Professional remote assistance for business operations.",
+    icon: "💻",
+  },
+  {
+    title: "Dispatch Support",
+    desc: "Efficient dispatch coordination and logistics communication.",
+    icon: "🚚",
+  },
+  {
+    title: "Medical Billing",
+    desc: "Accurate healthcare billing and claims processing services.",
+    icon: "🏥",
+  },
+].map((service) => (
+  <div
+    key={service.title}
+    style={{
+      background:
+        "linear-gradient(145deg, rgba(90,0,150,0.35), rgba(20,0,40,0.95))",
+      borderRadius: "28px",
+      padding: "40px",
+      border: "1px solid rgba(255,255,255,0.12)",
+      transition: "0.3s ease",
+      boxShadow: "0 0 30px rgba(140,0,255,0.12)",
+      backdropFilter: "blur(12px)",
+    }}
+  >
+    <div style={{ fontSize: "48px", marginBottom: "20px" }}>
+      {service.icon}
+    </div>
+
+    <h3
+      style={{
+        fontSize: "28px",
+        marginBottom: "15px",
+        color: "white",
+      }}
+    >
+      {service.title}
+    </h3>
+
+    <p
+      style={{
+        color: "#d1c4ff",
+        lineHeight: "1.7",
+        fontSize: "17px",
+      }}
+    >
+      {service.desc}
+    </p>
+  </div>
+))}
       >
         <h3 style={{ fontSize: "24px" }}>{service}</h3>
       </div>
