@@ -27,6 +27,79 @@ export default function Home() {
     }}
   />
 </div>
+
+    <div
+  style={{
+    position: "absolute",
+    top: "220px",
+    left: "80px",
+    zIndex: 20,
+    maxWidth: "700px",
+    color: "white",
+    fontFamily: "Arial",
+  }}
+>
+  <h1
+    style={{
+      fontSize: "72px",
+      lineHeight: "1.1",
+      fontWeight: "bold",
+      marginBottom: "30px",
+      textShadow: "0 4px 30px rgba(0,0,0,0.45)",
+    }}
+  >
+    Premium Global
+    <br />
+    Outsourcing Solutions
+    <br />
+    For Modern Businesses
+  </h1>
+
+  <p
+    style={{
+      fontSize: "22px",
+      color: "#d1c4ff",
+      lineHeight: "1.8",
+      marginBottom: "40px",
+      maxWidth: "650px",
+    }}
+  >
+    Customer Support • Dispatch Services • Virtual Assistance • Medical Billing
+  </p>
+
+  <div style={{ display: "flex", gap: "20px" }}>
+    <a
+      href="#contact"
+      style={{
+        padding: "18px 34px",
+        background: "linear-gradient(135deg, #8b5cf6, #6d28d9)",
+        borderRadius: "14px",
+        color: "white",
+        textDecoration: "none",
+        fontWeight: "bold",
+        boxShadow: "0 10px 30px rgba(139,92,246,0.4)",
+      }}
+    >
+      Contact Us
+    </a>
+
+    <a
+      href="#services"
+      style={{
+        padding: "18px 34px",
+        border: "1px solid rgba(255,255,255,0.2)",
+        borderRadius: "14px",
+        color: "white",
+        textDecoration: "none",
+        backdropFilter: "blur(10px)",
+      }}
+    >
+      Explore Services
+    </a>
+  </div>
+</div>
+
+    
       
       
       <nav
