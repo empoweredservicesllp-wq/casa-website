@@ -151,18 +151,19 @@ export default function Home() {
         </div>
 
         {/* RIGHT SIDE */}
-
-       <div style={{ flex: 1 }}>
-         <img
-  src="/hero-image.png"
-  alt="CASCA Hero"
+<div
   style={{
-    maxWidth: "100%",
-              maxWidth: "100%",
-              objectFit: "cover",
-              
-            }}
-          />
+    flex: 1,
+    minHeight: "700px",
+    backgroundImage: "url('/hero-image.png')",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+    borderRadius: "30px",
+  }}
+>
+       
+        
         </div>
       </section>
     </main>
