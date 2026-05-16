@@ -152,15 +152,15 @@ export default function Home() {
 
         {/* RIGHT SIDE */}
 
-        <div style={{ flex: 1, textAlign: "center" }}>
+       <div style={{ flex: 1 }}>
          <img
   src="/hero-image.png"
   alt="CASCA Hero"
   style={{
-    width: "700px",
+    maxWidth: "100%",
               maxWidth: "100%",
-              objectFit: "contain",
-              filter: "drop-shadow(0px 0px 30px #7b2ff7)",
+              objectFit: "cover",
+              
             }}
           />
         </div>
