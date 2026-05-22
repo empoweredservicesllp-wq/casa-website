@@ -4,6 +4,7 @@ export default function Home() {
       style={{
         background: "#070014",
         minHeight: "100vh",
+        animation: "float 6s ease-in-out infinite",
         margin: 0,
       }}
     >
