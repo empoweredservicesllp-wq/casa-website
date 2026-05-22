@@ -5,8 +5,10 @@ export default function Home() {
         background: "#070014",
         minHeight: "100vh",
         animation: "float 6s ease-in-out infinite",
+        display: "block",
         margin: 0,
-      }}
+       
+     }}
     >
      <div
   style={{
