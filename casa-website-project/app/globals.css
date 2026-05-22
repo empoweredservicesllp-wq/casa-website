@@ -20,3 +20,12 @@ html {
     transform: translateY(0px);
   }
 }
+.service-card {
+  transition: all 0.4s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-12px) scale(1.02);
+  box-shadow: 0 25px 60px rgba(168, 85, 247, 0.35);
+  border: 1px solid rgba(168, 85, 247, 0.6);
+}
