@@ -4,8 +4,7 @@ export default function Home() {
       style={{
         background: "#070014",
         minHeight: "100vh",
-        animation: "float 6s ease-in-out infinite",
-        display: "block",
+       
         margin: 0,
        
      }}
@@ -160,6 +159,7 @@ borderBottom: "1px solid rgba(255,255,255,0.08)",
          backgroundSize: "cover",
 backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
+    animation: "float 6s ease-in-out infinite",
         }}
       ></section>
 
