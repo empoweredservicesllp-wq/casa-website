@@ -564,7 +564,109 @@ backgroundPosition: "center",
   </div>
 </section>
 
+<section
+  style={{
+    padding: "120px 80px",
+    background: "linear-gradient(to bottom, #070014, #0d0221)",
+    color: "white",
+    display: "flex",
+    justifyContent: "space-between",
+    alignItems: "center",
+    gap: "60px",
+    flexWrap: "wrap",
+  }}
+>
+  <div style={{ flex: 1, minWidth: "320px" }}>
+    <p
+      style={{
+        color: "#d1a4ff",
+        letterSpacing: "4px",
+        marginBottom: "20px",
+        fontSize: "14px",
+      }}
+    >
+      FOUNDER MESSAGE
+    </p>
 
+    <h2
+      style={{
+        fontSize: "56px",
+        lineHeight: "1.1",
+        marginBottom: "30px",
+      }}
+    >
+      Building Premium Global
+      <br />
+      Outsourcing Solutions
+    </h2>
+
+    <p
+      style={{
+        fontSize: "20px",
+        color: "#d1c4ff",
+        lineHeight: "1.8",
+        maxWidth: "700px",
+      }}
+    >
+      Empowered Services LLP was founded with a vision to deliver
+      premium outsourcing, customer support, virtual assistance,
+      dispatch coordination, and digital business solutions for
+      international clients with professionalism and operational excellence.
+    </p>
+
+    <div
+      style={{
+        marginTop: "40px",
+        padding: "25px",
+        borderRadius: "20px",
+        background: "rgba(255,255,255,0.05)",
+        border: "1px solid rgba(255,255,255,0.08)",
+        backdropFilter: "blur(10px)",
+      }}
+    >
+      <h3 style={{ fontSize: "28px", marginBottom: "10px" }}>
+        K. Anand
+      </h3>
+
+      <p style={{ color: "#d1c4ff", fontSize: "18px" }}>
+        Founder — Empowered Services LLP
+      </p>
+
+      <p
+        style={{
+          color: "#bba7ff",
+          marginTop: "15px",
+          lineHeight: "1.7",
+        }}
+      >
+        16+ years of experience in BPO operations,
+        customer service excellence, dispatch coordination,
+        and international business support solutions.
+      </p>
+    </div>
+  </div>
+
+  <div
+    style={{
+      flex: 1,
+      minWidth: "320px",
+      display: "flex",
+      justifyContent: "center",
+    }}
+  >
+    <img
+      src="/founder.jpg"
+      alt="Founder"
+      style={{
+        width: "100%",
+        maxWidth: "500px",
+        borderRadius: "30px",
+        boxShadow: "0 20px 60px rgba(138,43,226,0.35)",
+        animation: "float 4s ease-in-out infinite",
+      }}
+    />
+  </div>
+</section>
 <section
 id="contact"
   style={{
