@@ -278,6 +278,124 @@ backgroundPosition: "center",
     </div>
   </div>
 </section>
+<section
+  style={{
+    padding: "120px 80px",
+    background: "linear-gradient(to bottom, #050014, #0d0221)",
+    color: "white",
+    display: "flex",
+    justifyContent: "space-between",
+    alignItems: "center",
+    gap: "80px",
+    flexWrap: "wrap"
+  }}
+>
+  <div style={{ flex: 1, minWidth: "320px" }}>
+    <p
+      style={{
+        color: "#d1a4ff",
+        letterSpacing: "4px",
+        marginBottom: "20px",
+        fontSize: "18px"
+      }}
+    >
+      FOUNDER & VISION
+    </p>
+
+```
+<h2
+  style={{
+    fontSize: "58px",
+    lineHeight: "1.2",
+    marginBottom: "30px",
+    fontWeight: "bold"
+  }}
+>
+  Meet The <span style={{ color: "#f59e0b" }}>Founder</span>
+</h2>
+
+<p
+  style={{
+    fontSize: "22px",
+    lineHeight: "1.9",
+    color: "#d4d4d8",
+    marginBottom: "30px"
+  }}
+>
+  K. Anand brings over 20 years of leadership experience in the BPO
+  industry with expertise in customer support, operational excellence,
+  business development, and scalable outsourcing solutions.
+</p>
+
+<p
+  style={{
+    fontSize: "20px",
+    lineHeight: "1.9",
+    color: "#d4d4d8",
+    marginBottom: "40px"
+  }}
+>
+  Through Empowered Services LLP, his vision is to build a globally trusted
+  outsourcing company focused on reliability, innovation, and premium client
+  experiences.
+</p>
+
+<div
+  style={{
+    display: "flex",
+    gap: "20px",
+    flexWrap: "wrap"
+  }}
+>
+  <div
+    style={{
+      border: "1px solid #f59e0b",
+      padding: "18px 30px",
+      borderRadius: "16px",
+      background: "rgba(255,255,255,0.04)"
+    }}
+  >
+    <h3 style={{ color: "#f59e0b", fontSize: "28px" }}>20+</h3>
+    <p>Years Experience</p>
+  </div>
+
+  <div
+    style={{
+      border: "1px solid #f59e0b",
+      padding: "18px 30px",
+      borderRadius: "16px",
+      background: "rgba(255,255,255,0.04)"
+    }}
+  >
+    <h3 style={{ color: "#f59e0b", fontSize: "28px" }}>Global</h3>
+    <p>Business Vision</p>
+  </div>
+</div>
+```
+
+  </div>
+
+  <div
+    style={{
+      flex: 1,
+      minWidth: "320px",
+      textAlign: "center"
+    }}
+  >
+    <img
+      src="/founder.png"
+      alt="Founder"
+      style={{
+        width: "100%",
+        maxWidth: "520px",
+        borderRadius: "30px",
+        boxShadow: "0 20px 60px rgba(0,0,0,0.5)",
+        border: "2px solid rgba(245,158,11,0.3)",
+        animation: "float 3s ease-in-out infinite"
+      }}
+    />
+  </div>
+</section>
 
 <section
   id="services"
