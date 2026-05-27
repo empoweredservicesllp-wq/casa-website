@@ -513,59 +513,130 @@ backgroundPosition: "center",
 ].map((service) => (
 
   <div
-    key={service.title}
+  key={service.title}
+  style={{
+    perspective: "1500px",
+    minHeight: "320px"
+  }}
+>
+  <div
     style={{
-      background:
-        "linear-gradient(145deg, rgba(120,0,255,0.18), rgba(20,0,40,0.95))",
-      border: "1px solid rgba(255,255,255,0.12)",
-      borderRadius: "28px",
-      padding: "40px",
-      minHeight: "260px",
-      transition: "0.4s ease",
-      backdropFilter: "blur(10px)",
-      boxShadow: "0 0 30px rgba(162, 0, 255, 0.18)",
       position: "relative",
-      overflow: "hidden",
+      width: "100%",
+      height: "320px",
+      transformStyle: "preserve-3d",
+      transition: "transform 0.8s",
+      cursor: "pointer"
+    }}
+    className="flip-card"
+  >
+
+```
+{/* FRONT */}
+<div
+  style={{
+    position: "absolute",
+    width: "100%",
+    height: "100%",
+    backfaceVisibility: "hidden",
+    background:
+      "linear-gradient(145deg, rgba(120,0,255,0.18), rgba(20,0,40,0.95))",
+    border: "1px solid rgba(255,255,255,0.12)",
+    borderRadius: "28px",
+    padding: "40px",
+    backdropFilter: "blur(10px)",
+    boxShadow: "0 0 30px rgba(162, 0, 255, 0.18)",
+    overflow: "hidden"
+  }}
+>
+  <div
+    style={{
+      width: "75px",
+      height: "75px",
+      borderRadius: "22px",
+      background:
+        "linear-gradient(135deg, #a855f7, #6d28d9)",
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "center",
+      fontSize: "34px",
+      marginBottom: "25px",
+      boxShadow: "0 0 25px rgba(168,85,247,0.6)"
     }}
   >
-    <div
-      style={{
-        width: "70px",
-        height: "70px",
-        borderRadius: "20px",
-        background:
-          "linear-gradient(135deg, #a855f7, #6d28d9)",
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
-        fontSize: "30px",
-        marginBottom: "25px",
-        boxShadow: "0 0 25px rgba(168,85,247,0.6)",
-      }}
-    >
-      {service.icon}
-    </div>
-
-    <h3
-      style={{
-        fontSize: "30px",
-        marginBottom: "18px",
-        color: "white",
-      }}
-    >
-      {service.title}
-    </h3>
-
-    <p
-      style={{
-        color: "#d8c7ff",
-        fontSize: "17px",
-        lineHeight: "1.8",
-      }}
-    >
-      {service.desc}
-    </p>
+    {service.icon}
   </div>
+
+  <h3
+    style={{
+      fontSize: "34px",
+      marginBottom: "18px",
+      color: "white",
+      lineHeight: "1.2"
+    }}
+  >
+    {service.title}
+  </h3>
+
+  <p
+    style={{
+      color: "#d8c7ff",
+      fontSize: "18px",
+      lineHeight: "1.8"
+    }}
+  >
+    {service.desc}
+  </p>
+</div>
+
+{/* BACK */}
+<div
+  style={{
+    position: "absolute",
+    width: "100%",
+    height: "100%",
+    backfaceVisibility: "hidden",
+    transform: "rotateY(180deg)",
+    background:
+      "linear-gradient(145deg, rgba(255,140,0,0.18), rgba(20,0,40,0.95))",
+    border: "1px solid rgba(255,255,255,0.12)",
+    borderRadius: "28px",
+    padding: "35px",
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "center",
+    boxShadow: "0 0 35px rgba(255,140,0,0.18)"
+  }}
+>
+  <h3
+    style={{
+      color: "#f59e0b",
+      fontSize: "28px",
+      marginBottom: "20px"
+    }}
+  >
+    Why Choose Us
+  </h3>
+
+  <ul
+    style={{
+      color: "#f3f4f6",
+      lineHeight: "2",
+      paddingLeft: "20px",
+      fontSize: "17px"
+    }}
+  >
+    <li>Professional & scalable support</li>
+    <li>Fast response management</li>
+    <li>24/7 operational assistance</li>
+    <li>Reliable business solutions</li>
+  </ul>
+</div>
+```
+
+  </div>
+</div>
+
 ))}
       
      
