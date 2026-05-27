@@ -692,7 +692,8 @@ points: [
       alignItems: "center",
     }}
   >
-   
+   </div>
+</section>
 <section
 id="contact"
   style={{
