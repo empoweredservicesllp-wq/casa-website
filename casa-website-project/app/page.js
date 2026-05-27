@@ -66,7 +66,7 @@ export default function Home() {
       maxWidth: "650px",
     }}
   >
-    Customer Support • Dispatch Services • Virtual Assistance • Medical Billing
+    
   </p>
 
   <div style={{ display: "flex", gap: "20px" }}>
@@ -82,7 +82,7 @@ export default function Home() {
         boxShadow: "0 10px 30px rgba(139,92,246,0.4)",
       }}
     >
-      Contact Us
+     
     </a>
 
     <a
@@ -96,7 +96,7 @@ export default function Home() {
         backdropFilter: "blur(10px)",
       }}
     >
-      Explore Services
+     
     </a>
   </div>
 </div>
