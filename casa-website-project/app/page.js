@@ -383,7 +383,7 @@ backgroundPosition: "center",
     }}
   >
     <img
-      src="/founder.png"
+      src="/founder.png.jpeg"
       alt="Founder"
       style={{
         width: "100%",
