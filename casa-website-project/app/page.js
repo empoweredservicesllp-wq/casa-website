@@ -396,6 +396,78 @@ backgroundPosition: "center",
     />
   </div>
 </section>
+<section
+  style={{
+    padding: "80px 60px",
+    background: "#070014",
+    color: "white"
+  }}
+>
+  <div
+    style={{
+      display: "grid",
+      gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))",
+      gap: "30px",
+      maxWidth: "1300px",
+      margin: "0 auto"
+    }}
+  >
+    {[
+      {
+        number: "20+",
+        title: "Years Leadership Experience"
+      },
+      {
+        number: "Global",
+        title: "Business Vision"
+      },
+      {
+        number: "24/7",
+        title: "Operational Support"
+      },
+      {
+        number: "Scalable",
+        title: "Solutions & Growth"
+      }
+    ].map((item, index) => (
+      <div
+        key={index}
+        style={{
+          background: "linear-gradient(to bottom right, #120024, #1f003d)",
+          border: "1px solid rgba(245,158,11,0.25)",
+          borderRadius: "24px",
+          padding: "40px 30px",
+          textAlign: "center",
+          boxShadow: "0 10px 40px rgba(0,0,0,0.4)",
+          transition: "0.4s"
+        }}
+      >
+        <h2
+          style={{
+            fontSize: "42px",
+            color: "#f59e0b",
+            marginBottom: "15px"
+          }}
+        >
+          {item.number}
+        </h2>
+
+```
+    <p
+      style={{
+        fontSize: "20px",
+        color: "#e4e4e7",
+        lineHeight: "1.6"
+      }}
+    >
+      {item.title}
+    </p>
+  </div>
+))}
+```
+
+  </div>
+</section>
 
 <section
   id="services"
