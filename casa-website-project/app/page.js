@@ -536,7 +536,7 @@ points: [
 "Payment posting",
 "Revenue cycle support"
 ]
-}
+},
 ]
 
 ].map((service) => (
