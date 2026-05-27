@@ -29,3 +29,6 @@ html {
   box-shadow: 0 25px 60px rgba(168, 85, 247, 0.35);
   border: 1px solid rgba(168, 85, 247, 0.6);
 }
+.flip-card:hover {
+  transform: rotateY(180deg);
+}
