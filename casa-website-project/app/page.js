@@ -489,27 +489,56 @@ backgroundPosition: "center",
       gap: "30px",
     }}
   >
-   {[
-  {
-    title: "Customer Support",
-    desc: "24/7 customer interaction and client relationship management.",
-    icon: "🎧",
-  },
-  {
-    title: "Virtual Assistance",
-    desc: "Professional remote assistance for business operations.",
-    icon: "💻",
-  },
-  {
-    title: "Dispatch Support",
-    desc: "Efficient dispatch coordination and logistics communication.",
-    icon: "🚚",
-  },
-  {
-    title: "Medical Billing",
-    desc: "Accurate healthcare billing and claims processing services.",
-    icon: "🏥",
-  },
+  [
+{
+title: "Customer Support",
+desc: "24/7 customer interaction and client relationship management.",
+icon: "🎧",
+points: [
+"Inbound & outbound calls",
+"Email & chat support",
+"CRM coordination",
+"24/7 assistance"
+]
+},
+
+{
+title: "Virtual Assistance",
+desc: "Professional remote assistance for business operations.",
+icon: "💻",
+points: [
+"Administrative tasks",
+"Calendar management",
+"Data organization",
+"Business coordination"
+]
+},
+
+{
+title: "Dispatch Support",
+desc: "Efficient dispatch coordination and logistics communication.",
+icon: "🚚",
+points: [
+"Real-time dispatch support",
+"Driver coordination",
+"Route communication",
+"Operational management"
+]
+},
+
+{
+title: "Medical Billing",
+desc: "Accurate healthcare billing and claims processing services.",
+icon: "🏥",
+points: [
+"Claims processing",
+"Insurance verification",
+"Payment posting",
+"Revenue cycle support"
+]
+}
+]
+
 ].map((service) => (
 
   <div
@@ -626,10 +655,9 @@ backgroundPosition: "center",
       fontSize: "17px"
     }}
   >
-    <li>Professional & scalable support</li>
-    <li>Fast response management</li>
-    <li>24/7 operational assistance</li>
-    <li>Reliable business solutions</li>
+    {service.points.map((point, index) => (
+  <li key={index}>{point}</li>
+))}
   </ul>
 </div>
 ```
