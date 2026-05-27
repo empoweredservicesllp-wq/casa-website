@@ -86,20 +86,7 @@ export default function Home() {
     </a>
 
     <a
-      href="#services"
-      style={{
-        padding: "18px 34px",
-        border: "1px solid rgba(255,255,255,0.2)",
-        borderRadius: "14px",
-        color: "white",
-        textDecoration: "none",
-        backdropFilter: "blur(10px)",
-      }}
-    >
-     
-    </a>
-  </div>
-</div>
+    
 
     
       
