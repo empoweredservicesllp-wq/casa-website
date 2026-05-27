@@ -539,7 +539,7 @@ points: [
 },
 
 
-]}.map((service) => (
+].map((service) => (
 
   <div
   key={service.title}
