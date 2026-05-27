@@ -187,7 +187,7 @@ backgroundPosition: "center",
         marginBottom: "20px",
       }}
     >
-      WHO WE ARE
+      
     </p>
 
     <h2
@@ -212,9 +212,7 @@ backgroundPosition: "center",
     >
       Empowered Services LLP helps businesses improve customer
       experiences, optimize operations, and scale efficiently through
-      professional outsourcing solutions. We specialize in customer
-      support, dispatch services, virtual assistance, medical billing,
-      and operational support tailored for global businesses.
+      professional outsourcing solutions. 
     </p>
 
     <div
