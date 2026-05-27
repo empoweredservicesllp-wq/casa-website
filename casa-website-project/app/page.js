@@ -489,7 +489,7 @@ backgroundPosition: "center",
       gap: "30px",
     }}
   >
-  [
+{[
 {
 title: "Customer Support",
 desc: "24/7 customer interaction and client relationship management.",
