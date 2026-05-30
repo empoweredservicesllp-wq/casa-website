@@ -47,12 +47,11 @@ overflowX: "hidden",
       borderBottom: "1px solid rgba(255,255,255,0.08)",
     }}
   >
-    <a href="#home" style={navLink}>Home</a>
-    <a href="#about" style={navLink}>About</a>
-    <a href="#services" style={navLink}>Services</a>
-    <a href="#industries" style={navLink}>Industries</a>
-    <a href="#contact" style={navLink}>Contact</a>
-
+   <a href="#Home" style={{color:"white",textDecoration:"none"}}>Home</a>
+<a href="#About" style={{color:"white",textDecoration:"none"}}>About</a>
+<a href="#Services" style={{color:"white",textDecoration:"none"}}>Services</a>
+<a href="#Industries" style={{color:"white",textDecoration:"none"}}>Industries</a>
+<a href="#Contact" style={{color:"white",textDecoration:"none"}}>Contact</a>
     <button
       style={{
         background: "transparent",
