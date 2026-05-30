@@ -198,24 +198,62 @@ overflowX: "hidden",
           gap: "30px",
         }}
       >
-        <div style={aboutCard}>
-          <h3 style={aboutTitle}>
+       <div
+  style={{
+    background: "rgba(255,255,255,0.05)",
+    border: "1px solid rgba(255,255,255,0.08)",
+    padding: "40px",
+    borderRadius: "24px",
+    backdropFilter: "blur(10px)",
+  }}
+>
+         <h3
+  style={{
+    fontSize: "30px",
+    marginBottom: "20px",
+  }}
+>
             The Challenge
           </h3>
 
-          <p style={aboutText}>
+      <p
+  style={{
+    color: "#d4cfff",
+    lineHeight: "1.8",
+    fontSize: "18px",
+  }}
+>
             Modern businesses face increasing customer expectations,
             rising operational expenses and the need to deliver
             exceptional service consistently across multiple channels.
           </p>
         </div>
 
-        <div style={aboutCard}>
-          <h3 style={aboutTitle}>
+        <div
+  style={{
+    background: "rgba(255,255,255,0.05)",
+    border: "1px solid rgba(255,255,255,0.08)",
+    padding: "40px",
+    borderRadius: "24px",
+    backdropFilter: "blur(10px)",
+  }}
+>
+<h3
+  style={{
+    fontSize: "30px",
+    marginBottom: "20px",
+  }}
+>
             Our Solution
           </h3>
 
-          <p style={aboutText}>
+          <p
+  style={{
+    color: "#d4cfff",
+    lineHeight: "1.8",
+    fontSize: "18px",
+  }}
+>
             We provide reliable, scalable and cost-effective
             outsourcing solutions that improve customer satisfaction,
             increase efficiency and support long-term business growth.
