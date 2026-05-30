@@ -69,28 +69,7 @@ export default function Home() {
     
   </p>
 
-  <div style={{ display: "flex", gap: "20px" }}>
-    <a
-      href="#contact"
-      style={{
-        padding: "18px 34px",
-        background: "linear-gradient(135deg, #8b5cf6, #6d28d9)",
-        borderRadius: "14px",
-        color: "white",
-        textDecoration: "none",
-        fontWeight: "bold",
-        boxShadow: "0 10px 30px rgba(139,92,246,0.4)",
-      }}
-    >
-     
-    </a>
-
-    <a
-    
-
-    
-      
-      
+ 
       <nav
         style={{
           position: "absolute",
