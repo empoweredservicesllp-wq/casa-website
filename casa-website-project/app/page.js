@@ -451,26 +451,3 @@ overflowX: "hidden",
 );
 }
 
-const navLink = {
-color: "white",
-textDecoration: "none",
-};
-
-const aboutCard = {
-background: "rgba(255,255,255,0.05)",
-border: "1px solid rgba(255,255,255,0.08)",
-padding: "40px",
-borderRadius: "24px",
-backdropFilter: "blur(10px)",
-};
-
-const aboutTitle = {
-fontSize: "30px",
-marginBottom: "20px",
-};
-
-const aboutText = {
-color: "#d4cfff",
-lineHeight: "1.8",
-fontSize: "18px",
-};
