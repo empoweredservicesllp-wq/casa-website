@@ -521,13 +521,13 @@ overflowX: "hidden",
       }}
     >
       {[
-        "Healthcare",
+        "Medical Billing",
         "Logistics & Transportation",
         "E-Commerce",
         "Technology",
         "Telecommunications",
-        "Financial Services",
-        "Real Estate",
+      
+        
         "Customer Service",
       ].map((industry) => (
         <div
