@@ -681,6 +681,7 @@ id="contact"
     Phone: +91 9679897979
   </p>
 </section>
-    </main>
+      </main>
   );
 }
+  
