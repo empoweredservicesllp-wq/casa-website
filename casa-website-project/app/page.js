@@ -445,6 +445,166 @@ overflowX: "hidden",
 
   </div>
 </section>
+<section
+  id="industries"
+  style={{
+    padding: "120px 80px",
+    background: "#0a001f",
+    color: "white",
+    fontFamily: "Arial",
+  }}
+>
+  <div style={{ maxWidth: "1300px", margin: "0 auto" }}>
+    <h2
+      style={{
+        fontSize: "56px",
+        textAlign: "center",
+        marginBottom: "20px",
+      }}
+    >
+      Industries We Serve
+    </h2>
+
+    <p
+      style={{
+        textAlign: "center",
+        color: "#d4cfff",
+        fontSize: "20px",
+        marginBottom: "60px",
+      }}
+    >
+      Delivering specialized outsourcing solutions across diverse industries.
+    </p>
+
+    <div
+      style={{
+        display: "grid",
+        gridTemplateColumns: "repeat(auto-fit,minmax(250px,1fr))",
+        gap: "25px",
+      }}
+    >
+      {[
+        "Healthcare",
+        "Logistics & Transportation",
+        "E-Commerce",
+        "Technology",
+        "Telecommunications",
+        "Financial Services",
+        "Real Estate",
+        "Customer Service",
+      ].map((industry) => (
+        <div
+          key={industry}
+          style={{
+            background: "rgba(255,255,255,0.05)",
+            border: "1px solid rgba(255,255,255,0.08)",
+            borderRadius: "24px",
+            padding: "35px",
+            textAlign: "center",
+            backdropFilter: "blur(10px)",
+          }}
+        >
+          <h3
+            style={{
+              fontSize: "24px",
+              color: "#f59e0b",
+            }}
+          >
+            {industry}
+          </h3>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+<section
+  id="why-us"
+  style={{
+    padding: "120px 80px",
+    background: "linear-gradient(to bottom,#050014,#0d0221)",
+    color: "white",
+    fontFamily: "Arial",
+  }}
+>
+  <div style={{ maxWidth: "1300px", margin: "0 auto" }}>
+    <h2
+      style={{
+        fontSize: "56px",
+        textAlign: "center",
+        marginBottom: "70px",
+      }}
+    >
+      Why Choose Us
+    </h2>
+
+    <div
+      style={{
+        display: "grid",
+        gridTemplateColumns: "repeat(auto-fit,minmax(280px,1fr))",
+        gap: "30px",
+      }}
+    >
+      {[
+        {
+          title: "16+ Years Experience",
+          desc: "Deep industry expertise and operational excellence.",
+        },
+        {
+          title: "24/7 Support",
+          desc: "Round-the-clock assistance for global businesses.",
+        },
+        {
+          title: "Scalable Solutions",
+          desc: "Flexible teams that grow with your business needs.",
+        },
+        {
+          title: "Quality Focused",
+          desc: "Consistent service delivery with measurable results.",
+        },
+        {
+          title: "Cost Efficient",
+          desc: "Reduce operational costs without compromising quality.",
+        },
+        {
+          title: "Global Reach",
+          desc: "Supporting clients across multiple international markets.",
+        },
+      ].map((item) => (
+        <div
+          key={item.title}
+          style={{
+            background: "rgba(255,255,255,0.05)",
+            border: "1px solid rgba(255,255,255,0.08)",
+            borderRadius: "24px",
+            padding: "35px",
+            backdropFilter: "blur(10px)",
+          }}
+        >
+          <h3
+            style={{
+              color: "#f59e0b",
+              fontSize: "28px",
+              marginBottom: "15px",
+            }}
+          >
+            {item.title}
+          </h3>
+
+          <p
+            style={{
+              color: "#d4cfff",
+              lineHeight: "1.8",
+              fontSize: "18px",
+            }}
+          >
+            {item.desc}
+          </p>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
 </main>
 
 
