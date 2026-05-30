@@ -18,24 +18,7 @@ overflowX: "hidden",
 >
 
 ```
-  {/* LOGO */}
-  <div
-    style={{
-      position: "absolute",
-      top: "70px",
-      left: "30px",
-      zIndex: 100,
-    }}
-  >
-    <img
-      src="/logo.png"
-      alt="Empowered Services LLP"
-      style={{
-        width: "220px",
-        objectFit: "contain",
-      }}
-    />
-  </div>
+ 
 
   {/* NAVBAR */}
   <nav
