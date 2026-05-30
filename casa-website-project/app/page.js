@@ -1,4 +1,11 @@
 export default function Home() {
+  const inputStyle = {
+  background: "rgba(255,255,255,0.05)",
+  border: "1px solid rgba(255,255,255,0.1)",
+  padding: "16px",
+  borderRadius: "12px",
+  color: "white",
+};
 return (
 <main
 style={{
@@ -642,6 +649,236 @@ overflowX: "hidden",
     </div>
   </div>
 </section>
+
+{/* SERVICES */}
+
+<section
+  id="services"
+  style={{
+    padding: "120px 80px",
+    background: "#070014",
+    color: "white",
+  }}
+>
+  <div style={{ maxWidth: "1300px", margin: "0 auto" }}>
+    <h2
+      style={{
+        fontSize: "56px",
+        textAlign: "center",
+        marginBottom: "20px",
+      }}
+    >
+      Our Services
+    </h2>
+
+    <p
+      style={{
+        textAlign: "center",
+        color: "#d4cfff",
+        fontSize: "20px",
+        marginBottom: "60px",
+      }}
+    >
+      Professional outsourcing solutions designed for growth.
+    </p>
+
+    <div
+      style={{
+        display: "grid",
+        gridTemplateColumns: "repeat(auto-fit,minmax(280px,1fr))",
+        gap: "30px",
+      }}
+    >
+      {[
+        "Customer Support",
+        "Virtual Assistance",
+        "Medical Billing",
+        "Dispatch Services",
+        "Email Support",
+        "Back Office Operations",
+      ].map((service) => (
+        <div
+          key={service}
+          style={{
+            background: "rgba(255,255,255,0.05)",
+            border: "1px solid rgba(255,255,255,0.08)",
+            borderRadius: "24px",
+            padding: "40px",
+            textAlign: "center",
+            backdropFilter: "blur(10px)",
+          }}
+        >
+          <h3
+            style={{
+              color: "#f59e0b",
+              fontSize: "26px",
+            }}
+          >
+            {service}
+          </h3>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+{/* TESTIMONIALS */}
+
+<section
+  style={{
+    padding: "120px 80px",
+    background: "#0a001f",
+    color: "white",
+  }}
+>
+  <div style={{ maxWidth: "1300px", margin: "0 auto" }}>
+    <h2
+      style={{
+        fontSize: "56px",
+        textAlign: "center",
+        marginBottom: "60px",
+      }}
+    >
+      Client Testimonials
+    </h2>
+
+    <div
+      style={{
+        display: "grid",
+        gridTemplateColumns: "repeat(auto-fit,minmax(320px,1fr))",
+        gap: "30px",
+      }}
+    >
+      {[
+        "Outstanding customer support and professionalism.",
+        "Reliable outsourcing partner for our business.",
+        "Great communication and operational excellence.",
+        "Helped us reduce costs and improve efficiency.",
+        "Professional team with excellent service quality.",
+        "Highly recommended for global support operations.",
+      ].map((review, index) => (
+        <div
+          key={index}
+          style={{
+            background: "rgba(255,255,255,0.05)",
+            border: "1px solid rgba(255,255,255,0.08)",
+            borderRadius: "24px",
+            padding: "35px",
+          }}
+        >
+          <p
+            style={{
+              color: "#d4cfff",
+              lineHeight: "1.8",
+            }}
+          >
+            "{review}"
+          </p>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+{/* CONTACT */}
+
+<section
+  id="contact"
+  style={{
+    padding: "120px 80px",
+    background: "#050014",
+    color: "white",
+  }}
+>
+  <div style={{ maxWidth: "800px", margin: "0 auto" }}>
+    <h2
+      style={{
+        fontSize: "56px",
+        textAlign: "center",
+        marginBottom: "50px",
+      }}
+    >
+      Contact Us
+    </h2>
+
+    <form
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        gap: "20px",
+      }}
+    >
+      <input placeholder="Name" style={inputStyle} />
+      <input placeholder="Email" style={inputStyle} />
+      <input placeholder="Phone" style={inputStyle} />
+      <input placeholder="Company" style={inputStyle} />
+      <textarea
+        placeholder="Message"
+        rows="6"
+        style={inputStyle}
+      />
+
+      <button
+        style={{
+          background: "#f59e0b",
+          color: "white",
+          border: "none",
+          padding: "16px",
+          borderRadius: "12px",
+          cursor: "pointer",
+          fontSize: "18px",
+        }}
+      >
+        Send Message
+      </button>
+    </form>
+  </div>
+</section>
+
+{/* WHATSAPP */}
+
+<a
+  href="https://wa.me/919679897979"
+  target="_blank"
+  rel="noreferrer"
+  style={{
+    position: "fixed",
+    right: "25px",
+    bottom: "25px",
+    background: "#25D366",
+    color: "white",
+    padding: "18px 22px",
+    borderRadius: "50px",
+    textDecoration: "none",
+    fontWeight: "bold",
+    zIndex: 9999,
+  }}
+>
+  WhatsApp
+</a>
+
+{/* FOOTER */}
+
+<footer
+  style={{
+    background: "#030008",
+    padding: "40px",
+    textAlign: "center",
+    color: "#d4cfff",
+  }}
+>
+  <h3 style={{ color: "#f59e0b" }}>
+    Empowered Services LLP
+  </h3>
+
+  <p>Email: info@empoweredservices.in</p>
+  <p>Phone: +91 9679897979</p>
+
+  <p style={{ marginTop: "20px" }}>
+    © 2026 Empowered Services LLP. All Rights Reserved.
+  </p>
+</footer>
+
 </main>
 
 
