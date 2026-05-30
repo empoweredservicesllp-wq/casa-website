@@ -724,61 +724,7 @@ overflowX: "hidden",
 
 {/* TESTIMONIALS */}
 
-<section
-  style={{
-    padding: "120px 80px",
-    background: "#0a001f",
-    color: "white",
-  }}
->
-  <div style={{ maxWidth: "1300px", margin: "0 auto" }}>
-    <h2
-      style={{
-        fontSize: "56px",
-        textAlign: "center",
-        marginBottom: "60px",
-      }}
-    >
-      Client Testimonials
-    </h2>
 
-    <div
-      style={{
-        display: "grid",
-        gridTemplateColumns: "repeat(auto-fit,minmax(320px,1fr))",
-        gap: "30px",
-      }}
-    >
-      {[
-        "Outstanding customer support and professionalism.",
-        "Reliable outsourcing partner for our business.",
-        "Great communication and operational excellence.",
-        "Helped us reduce costs and improve efficiency.",
-        "Professional team with excellent service quality.",
-        "Highly recommended for global support operations.",
-      ].map((review, index) => (
-        <div
-          key={index}
-          style={{
-            background: "rgba(255,255,255,0.05)",
-            border: "1px solid rgba(255,255,255,0.08)",
-            borderRadius: "24px",
-            padding: "35px",
-          }}
-        >
-          <p
-            style={{
-              color: "#d4cfff",
-              lineHeight: "1.8",
-            }}
-          >
-            "{review}"
-          </p>
-        </div>
-      ))}
-    </div>
-  </div>
-</section>
 
 {/* CONTACT */}
 
